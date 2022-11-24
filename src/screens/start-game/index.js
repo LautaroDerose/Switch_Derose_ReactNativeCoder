@@ -30,7 +30,6 @@ const StartGame = ({onStartGame}) => {
         }
     }
 
-
     const confirmedOutput = () => confirmed ? (
         <Card style={styles.confirmedContainer} >
             <Text style={styles.confirmedTitle}>Your selected number</Text>
